@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BeyainCorp — Enterprise IT Infrastructure, Cloud, Security &amp; Software Solutions</title>
+  <meta name="description" content="BeyainCorp is an enterprise IT infrastructure, cloud, cybersecurity, and software engineering organization delivering Server, NAS/SAN, Cloud & O365, SentinelOne EDR/XDR, AMC, Web Apps, and In-House/Local deployments." />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sticky Corporate Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-inner">
+      <a href="#hero" class="brand" aria-label="BeyainCorp Home">
+        <svg width="32" height="32" viewBox="0 0 64 64" aria-hidden="true">
+          <rect width="64" height="64" rx="14" fill="url(#brandGrad)" />
+          <defs>
+            <linearGradient id="brandGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#2563eb" />
+              <stop offset="100%" stop-color="#0ea5e9" />
+            </linearGradient>
+          </defs>
+          <path d="M20 18 H35 C41 18 45 21.5 45 26 C45 29 42.5 31 39.5 32 C43.5 33 46 36 46 39.5 C46 44 41.5 47 35 47 H20 Z M26 23.5 V29.5 H34 C37 29.5 38.5 28.2 38.5 26.5 C38.5 24.8 37 23.5 34 23.5 Z M26 35 V41.5 H35 C38.2 41.5 39.5 40.2 39.5 38.2 C39.5 36.2 38.2 35 35 35 Z" fill="#ffffff" />
+        </svg>
+        <span>BeyainCorp</span>
+        <span class="brand-tag">IT &amp; CLOUD</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a class="nav-link" href="#hero">Home</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-link" href="#sla">SLA Plans</a>
+        <a class="nav-link" href="#leadership">Directors</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" id="theme-toggle" class="icon-btn" aria-label="Toggle Light/Dark Mode" title="Toggle Light/Dark Mode">☾</button>
+        <a href="/portal.html" class="icon-btn" aria-label="Sign In to Portal" title="Sign In">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+            <circle cx="12" cy="7" r="4" />
+          </svg>
+        </a>
+        <a href="#contact" class="btn btn-primary btn-sm">Start a Project</a>
+        <button type="button" id="mobile-menu-btn" class="icon-btn mobile-menu-btn" aria-label="Menu">☰</button>
+      </div>
+    </div>
+
+    <div id="mobile-drawer" class="mobile-drawer">
+      <a class="nav-link" href="#hero">Home</a>
+      <a class="nav-link" href="#services">Services</a>
+      <a class="nav-link" href="#portfolio">Portfolio</a>
+      <a class="nav-link" href="#sla">SLA Plans</a>
+      <a class="nav-link" href="#leadership">Directors</a>
+      <a class="nav-link" href="/portal.html">Client &amp; CMS Portal</a>
+      <a class="btn btn-primary btn-sm" href="#contact" style="margin-top:4px;">Start a Project</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="pill-badge">
+            <span class="pill-dot"></span>
+            <span>BEYAINCORP &bull; ENTERPRISE IT INFRASTRUCTURE &amp; ENGINEERING</span>
+          </div>
+          <h1 class="hero-title">
+            We build &amp; manage <span class="text-gradient">resilient IT, Cloud &amp; Web systems.</span>
+          </h1>
+          <p class="hero-desc">
+            <strong>BeyainCorp</strong> pairs seasoned infrastructure architects and software engineers with modern automation to deliver complete IT Support, Servers, SAN/NAS, SentinelOne EDR/XDR, Cloud &amp; O365, Web Apps, and In-House / Open-Source deployments.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#portfolio" class="btn btn-primary">Explore Our Portfolio →</a>
+            <a href="#contact" class="btn btn-outline">Book Free Consultation</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <strong>8+ Yrs</strong>
+              <span>Enterprise Track Record</span>
+            </div>
+            <div class="stat-item">
+              <strong>99.9%</strong>
+              <span>Infra Uptime</span>
+            </div>
+            <div class="stat-item">
+              <strong>1,000+</strong>
+              <span>Entra IDs Secured</span>
+            </div>
+            <div class="stat-item">
+              <strong>98%+</strong>
+              <span>SLA Resolution</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Hero Showcase Console -->
+        <div class="showcase-card">
+          <div class="showcase-tabs" role="tablist" aria-label="BeyainCorp Live Architecture Preview">
+            <button type="button" class="showcase-tab active" data-hero-tab="infra">01. Infra &amp; SAN</button>
+            <button type="button" class="showcase-tab" data-hero-tab="cloud">02. Cloud &amp; EDR</button>
+            <button type="button" class="showcase-tab" data-hero-tab="apps">03. Web &amp; Local AI</button>
+          </div>
+
+          <div class="showcase-preview" id="hero-preview-box">
+            <!-- Populated by app.js -->
+          </div>
+
+          <div class="showcase-metrics">
+            <div class="dark-stat">
+              <strong>&lt; 1h / &lt; 4h</strong>
+              <span>Verified GxP RPO / RTO</span>
+            </div>
+            <div class="dark-stat">
+              <strong>30%+ / 15%+</strong>
+              <span>Admin Toil / Cloud Waste Cut</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPLETE IT SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker">OUR CAPABILITIES</div>
+          <h2 class="section-title">Complete IT Support, Cloud &amp; Engineering</h2>
+          <p class="section-sub">
+            From servers, Dell/NetApp SAN/NAS, and SentinelOne endpoint security to O365, licensing, AMC retainers, custom web apps, and open-source local deployments.
+          </p>
+        </div>
+
+        <div class="filter-bar" role="tablist" aria-label="Service Category Filter">
+          <button type="button" class="filter-btn active" data-srv-filter="ALL">All Services (7)</button>
+          <button type="button" class="filter-btn" data-srv-filter="INFRA">Infra, Server &amp; SAN</button>
+          <button type="button" class="filter-btn" data-srv-filter="CLOUD">Cloud &amp; O365</button>
+          <button type="button" class="filter-btn" data-srv-filter="SECURITY">Security &amp; EDR</button>
+          <button type="button" class="filter-btn" data-srv-filter="APPS">Web, In-House &amp; OSS</button>
+          <button type="button" class="filter-btn" data-srv-filter="ADVISORY">AMC, Licensing &amp; Advisory</button>
+        </div>
+
+        <div id="services-grid" class="grid-3"></div>
+      </div>
+    </section>
+
+    <!-- BEYAINCORP VISUAL PORTFOLIO -->
+    <section id="portfolio" class="section section-surface">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker">BEYAINCORP PORTFOLIO</div>
+          <h2 class="section-title">Featured Projects &amp; Production Systems</h2>
+          <p class="section-sub">
+            Real infrastructure clusters, zero-touch automation pipelines, web platforms, and geospatial data systems built and operated by our leadership. Click any project to inspect the full case study.
+          </p>
+        </div>
+
+        <div class="filter-bar" role="tablist" aria-label="Portfolio Category Filter">
+          <button type="button" class="filter-btn active" data-port-filter="ALL">All Work (8)</button>
+          <button type="button" class="filter-btn" data-port-filter="INFRA">Infrastructure &amp; Cloud</button>
+          <button type="button" class="filter-btn" data-port-filter="AUTOMATION">Automation &amp; Tooling</button>
+          <button type="button" class="filter-btn" data-port-filter="WEB">Web &amp; Full-Stack Apps</button>
+          <button type="button" class="filter-btn" data-port-filter="DATA">Data &amp; APIs</button>
+        </div>
+
+        <div id="portfolio-grid" class="grid-3"></div>
+      </div>
+    </section>
+
+    <!-- TECHNOLOGY STACK & SLA PLANS -->
+    <section id="sla" class="section">
+      <div class="container">
+        <div class="section-header centered">
+          <div class="section-kicker">ENGAGEMENT &amp; AMC PLANS</div>
+          <h2 class="section-title">Flexible Support &amp; Build Models</h2>
+          <p class="section-sub">Choose an Annual Maintenance Contract (AMC), 24/7 Enterprise Managed Operations, or a dedicated engineering sprint pod.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card tier-card">
+            <div>
+              <div class="section-kicker" style="margin-bottom:6px;">TIER 01 // AMC</div>
+              <h3 class="card-title" style="font-size:21px;">Essential IT &amp; AMC Support</h3>
+              <p class="card-desc">Reliable scheduled maintenance, licensing &amp; endpoint protection.</p>
+              <ul class="bullet-list">
+                <li>Server, OS &amp; M365 administration</li>
+                <li>Software &amp; hardware licensing advisory</li>
+                <li>SentinelOne EDR monitoring &amp; patching</li>
+                <li>Quarterly health &amp; Commvault backup audits</li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-outline select-tier-btn" data-tier="Essential IT & AMC Support">Select Essential AMC →</button>
+          </article>
+
+          <article class="card tier-card featured">
+            <span class="tier-ribbon">RECOMMENDED // 24/7 NOC</span>
+            <div>
+              <div class="section-kicker" style="margin-bottom:6px;">TIER 02 // ENTERPRISE</div>
+              <h3 class="card-title" style="font-size:21px;">Enterprise Managed Operations</h3>
+              <p class="card-desc">99.9% uptime SLA with 24/7 NOC monitoring &amp; dedicated L2/L3 engineers.</p>
+              <ul class="bullet-list">
+                <li>VMware ESXi HA, Dell/NetApp SAN/NAS &amp; DR drills</li>
+                <li>Entra ID Zero-Trust, Conditional Access &amp; Sophos VPN</li>
+                <li>&lt;15 min P1 triage, RCA &amp; 98%+ SLA resolution</li>
+                <li>Multi-cloud rightsizing &amp; monthly executive KPIs</li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-primary select-tier-btn" data-tier="Enterprise Managed Operations">Request Managed Ops →</button>
+          </article>
+
+          <article class="card tier-card">
+            <div>
+              <div class="section-kicker" style="margin-bottom:6px;">TIER 03 // ENGINEERING</div>
+              <h3 class="card-title" style="font-size:21px;">Dedicated Build &amp; AI Pod</h3>
+              <p class="card-desc">Full-stack apps, QA testing &amp; sovereign local deployments.</p>
+              <ul class="bullet-list">
+                <li>Web apps (Next.js, Java Spring Boot, Python)</li>
+                <li>In-house, cloud &amp; open-source local AI rollouts</li>
+                <li>SQL/QGIS data pipelines, Jenkins CI/CD &amp; QA</li>
+                <li>Fractional CIO &amp; IT innovation advisory</li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-outline select-tier-btn" data-tier="Dedicated Build & AI Pod">Scope a Build Pod →</button>
+          </article>
+        </div>
+
+        <!-- Tabbed Technology Stack -->
+        <div id="technologies" style="margin-top:64px;">
+          <div class="section-header" style="margin-bottom:24px;">
+            <div class="section-kicker">TECH STACK</div>
+            <h3 class="section-title" style="font-size:clamp(24px,3vw,32px);">Platforms &amp; Tooling We Run</h3>
+          </div>
+
+          <div class="filter-bar" role="tablist" aria-label="Technology Stack Tabs">
+            <button type="button" class="filter-btn active" data-tech-tab="infra">Infra &amp; Storage</button>
+            <button type="button" class="filter-btn" data-tech-tab="cloud">Cloud &amp; O365</button>
+            <button type="button" class="filter-btn" data-tech-tab="security">Security &amp; EDR</button>
+            <button type="button" class="filter-btn" data-tech-tab="apps">Web, DevOps &amp; OSS</button>
+            <button type="button" class="filter-btn" data-tech-tab="ai">AI, Data &amp; ITSM</button>
+          </div>
+
+          <div id="tech-grid" class="grid-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIRECTORS & LEADERSHIP -->
+    <section id="leadership" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker">LEADERSHIP &amp; DIRECTORS</div>
+          <h2 class="section-title">Led by Hands-On Infrastructure &amp; Software Directors</h2>
+          <p class="section-sub">
+            Combining 8+ years of enterprise IT infrastructure, cloud, and cybersecurity operations with full-stack engineering, geospatial data analytics, and AI automation.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <!-- DIRECTOR 1: JEBIN JOSEPH J -->
+          <article class="director-card">
+            <div style="display:flex;flex-direction:column;gap:16px;">
+              <div class="director-top">
+                <div class="portrait-wrap">
+                  <img id="cio-portrait" src="assets/img/jebin-executive.jpg" alt="Jebin Joseph J — CIO &amp; Director of BeyainCorp" class="portrait-img" />
+                </div>
+                <div>
+                  <span class="brand-tag" style="display:inline-block;margin-bottom:8px;">CIO &amp; DIRECTOR</span>
+                  <h3 class="card-title" style="font-size:22px;margin-bottom:4px;">Jebin Joseph J</h3>
+                  <div class="font-mono" style="font-size:11.5px;color:var(--text-muted);margin-bottom:10px;">Lead IT Infrastructure &amp; Cloud Architect &bull; B.E. (E.C.E.)</div>
+                  <div style="display:flex;gap:6px;flex-wrap:wrap;">
+                    <button type="button" class="filter-btn active" id="photo-exec-btn" style="padding:4px 10px;font-size:11px;">Executive</button>
+                    <button type="button" class="filter-btn" id="photo-port-btn" style="padding:4px 10px;font-size:11px;">Portrait</button>
+                  </div>
+                </div>
+              </div>
+
+              <p class="card-desc" style="margin-bottom:0;">
+                <strong>8+ years</strong> directing multi-site VMware ESXi/vCenter clusters (99.9% uptime), Microsoft 365 &amp; Entra ID Zero-Trust for 1,000+ accounts, Dell/NetApp SAN/NAS, SentinelOne EDR/XDR, and Commvault GxP DR (&lt;1h RPO / &lt;4h RTO).
+              </p>
+
+              <div class="career-box">
+                <div style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:13.5px;">
+                  <strong>IT Executive (Infra &amp; Ops) — Orchid Pharma Ltd</strong>
+                  <span class="font-mono" style="font-size:11px;color:var(--primary);">FEB 2024 – PRESENT</span>
+                </div>
+                <p style="font-size:12.5px;color:var(--text-soft);margin:4px 0 0;">50+ VMs, SAN/NAS multipathing, SentinelOne EDR/XDR, CIS GPO hardening &amp; Jenkins/PowerShell automation (-30% toil).</p>
+              </div>
+
+              <div class="career-box">
+                <div style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:13.5px;">
+                  <strong>Technical Analyst (Cloud) — Norwin Technologies</strong>
+                  <span class="font-mono" style="font-size:11px;color:var(--primary);">JAN 2022 – FEB 2024</span>
+                </div>
+                <p style="font-size:12.5px;color:var(--text-soft);margin:4px 0 0;">Multi-tenant AWS &amp; Azure operations, ServiceNow ITSM (99%+ SLA), Jira/Confluence &amp; Tableau telemetry.</p>
+              </div>
+
+              <div class="tag-row">
+                <span class="tag">Oracle AI Agent Studio</span>
+                <span class="tag">Oracle Cloud (OCI)</span>
+                <span class="tag">Cisco Cybersecurity</span>
+                <span class="tag">VMware / SAN / M365</span>
+              </div>
+            </div>
+
+            <div style="padding-top:14px;border-top:1px solid var(--border);display:flex;flex-wrap:wrap;gap:8px;">
+              <a class="btn btn-primary btn-sm" href="https://beyain-corp.github.io/Jebin_Portfolio/" target="_blank" rel="noopener noreferrer">Portfolio ↗</a>
+              <a class="btn btn-outline btn-sm" href="https://www.linkedin.com/in/jebinjosephj" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+              <a class="btn btn-outline btn-sm" href="https://github.com/Beyain-Corp" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+          </article>
+
+          <!-- DIRECTOR 2: SANJAI KUMAR J -->
+          <article class="director-card">
+            <div style="display:flex;flex-direction:column;gap:16px;">
+              <div class="director-top">
+                <div class="portrait-wrap studio">
+                  <svg class="studio-svg" viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                    <defs>
+                      <radialGradient id="sanjaiHalo" cx="50%" cy="42%" r="48%">
+                        <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.32" />
+                        <stop offset="100%" stop-color="#091224" stop-opacity="0" />
+                      </radialGradient>
+                      <filter id="sanjaiBlur" x="-20%" y="-20%" width="140%" height="140%">
+                        <feGaussianBlur stdDeviation="10" />
+                      </filter>
+                    </defs>
+                    <g filter="url(#sanjaiBlur)" opacity="0.6">
+                      <rect x="16" y="20" width="56" height="220" rx="6" fill="#1e3a5f" />
+                      <rect x="86" y="20" width="64" height="220" rx="6" fill="#254570" />
+                      <rect x="218" y="24" width="66" height="210" rx="6" fill="#183052" />
+                      <circle cx="52" cy="68" r="34" fill="#f59e0b" opacity="0.22" />
+                      <circle cx="248" cy="94" r="40" fill="#38bdf8" opacity="0.26" />
+                    </g>
+                    <rect width="300" height="300" fill="url(#sanjaiHalo)" />
+                  </svg>
+                  <img src="assets/img/sanjai-portrait.png" alt="Sanjai Kumar J — Director at BeyainCorp" class="portrait-img cutout" />
+                </div>
+                <div>
+                  <span class="brand-tag" style="display:inline-block;margin-bottom:8px;">DIRECTOR</span>
+                  <h3 class="card-title" style="font-size:22px;margin-bottom:4px;">Sanjai Kumar J</h3>
+                  <div class="font-mono" style="font-size:11.5px;color:var(--text-muted);margin-bottom:6px;">Software Engineer, Data Analyst &amp; Product Designer &bull; B.S. (C.S.)</div>
+                  <div class="font-mono" style="font-size:11px;color:var(--text-muted);">Sathyabama Inst. of Science &amp; Tech (GPA 8.42/10)</div>
+                </div>
+              </div>
+
+              <p class="card-desc" style="margin-bottom:0;">
+                <strong>2+ years</strong> crafting full-stack web apps, Java Spring Boot microservices, automated data pipelines, and brand/product design. Pairs backend precision (Java, Python, SQL, MongoDB, Docker, AWS) with Claude Code &amp; n8n workflow automation.
+              </p>
+
+              <div class="career-box">
+                <div style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:13.5px;">
+                  <strong>Data Analyst I — Trimble Inc. (Trimble Maps)</strong>
+                  <span class="font-mono" style="font-size:11px;color:var(--primary);">SEP 2024 – PRESENT</span>
+                </div>
+                <p style="font-size:12.5px;color:var(--text-soft);margin:4px 0 0;">Maintains complex map data networks using SQL &amp; QGIS; builds automated validation scripts to streamline data integrity &amp; cut manual QA.</p>
+              </div>
+
+              <div class="career-box">
+                <div style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:13.5px;">
+                  <strong>Full-Stack &amp; Product Engineering — Key Systems</strong>
+                  <span class="font-mono" style="font-size:11px;color:var(--primary);">2023 – 2026</span>
+                </div>
+                <p style="font-size:12.5px;color:var(--text-soft);margin:4px 0 0;">Shipped Dhuruv Detailing Studio, Green Gros (Next.js/Spring Boot/MySQL), Studento REST APIs, and Spotify2YouTube OAuth 2.0 sync.</p>
+              </div>
+
+              <div class="tag-row">
+                <span class="tag">Java &amp; Spring Boot</span>
+                <span class="tag">Python / Next.js</span>
+                <span class="tag">SQL / MongoDB / QGIS</span>
+                <span class="tag">Claude Code &amp; n8n</span>
+              </div>
+            </div>
+
+            <div style="padding-top:14px;border-top:1px solid var(--border);display:flex;flex-wrap:wrap;gap:8px;">
+              <a class="btn btn-primary btn-sm" href="https://sanjaiportfoliov1.vercel.app/" target="_blank" rel="noopener noreferrer">Portfolio ↗</a>
+              <a class="btn btn-outline btn-sm" href="https://www.linkedin.com/in/sanjai-kumar-aa1519239" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+              <a class="btn btn-outline btn-sm" href="https://github.com/sanjaisquad" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a class="btn btn-outline btn-sm" href="https://leetcode.com/u/Sanjai_kumar/" target="_blank" rel="noopener noreferrer">LeetCode ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT & PROJECT BRIEFING -->
+    <section id="contact" class="section section-surface">
+      <div class="container">
+        <div class="grid-2" style="align-items:start;">
+          <div>
+            <div class="section-kicker">GET IN TOUCH</div>
+            <h2 class="section-title">Have an Infra, Cloud or App Need? Let's Build It Together.</h2>
+            <p class="section-sub" style="margin-bottom:24px;">
+              Reach out directly to our leadership desk for AMC retainers, infrastructure projects, security hardening, or custom application builds.
+            </p>
+
+            <div style="display:flex;flex-direction:column;gap:12px;">
+              <div class="career-box">
+                <div class="font-mono" style="font-size:10.5px;color:var(--text-muted);">CIO &amp; INFRASTRUCTURE DIRECTOR</div>
+                <div style="margin-top:3px;"><strong>Jebin Joseph J</strong> &mdash; <span class="font-mono">+91-9043437743</span></div>
+              </div>
+              <div class="career-box">
+                <div class="font-mono" style="font-size:10.5px;color:var(--text-muted);">DIRECTOR — SOFTWARE, DATA &amp; AI</div>
+                <div style="margin-top:3px;"><strong>Sanjai Kumar J</strong> &mdash; <span class="font-mono">+91-7358435811</span></div>
+              </div>
+              <div class="career-box" style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;">
+                <div>
+                  <div class="font-mono" style="font-size:10.5px;color:var(--text-muted);">DIRECT EMAIL</div>
+                  <div class="font-mono" style="margin-top:2px;">jjebin05@gmail.com</div>
+                </div>
+                <button type="button" id="copy-email-btn" class="btn btn-outline btn-sm">Copy Email</button>
+              </div>
+            </div>
+          </div>
+
+          <form id="contact-form" class="card" style="display:flex;flex-direction:column;gap:14px;">
+            <div class="form-grid-2">
+              <div>
+                <label class="field-label" for="sender-name">Your Name / Organization</label>
+                <input id="sender-name" class="input" type="text" required placeholder="e.g. Ops Lead, Horizon Pharma" />
+              </div>
+              <div>
+                <label class="field-label" for="sender-email">Work Email</label>
+                <input id="sender-email" class="input" type="email" required placeholder="you@company.com" />
+              </div>
+            </div>
+
+            <div class="form-grid-2">
+              <div>
+                <label class="field-label" for="contact-service">Service / Project Scope</label>
+                <input id="contact-service" class="input" type="text" required placeholder="Infra / SAN / O365 / SentinelOne / Web App" />
+              </div>
+              <div>
+                <label class="field-label" for="contact-mode">Engagement Tier</label>
+                <select id="contact-mode" class="input">
+                  <option value="Enterprise Managed Operations">Enterprise Managed Operations</option>
+                  <option value="Essential IT & AMC Support">Essential IT &amp; AMC Support</option>
+                  <option value="Dedicated Build & AI Pod">Dedicated Build &amp; AI Pod</option>
+                  <option value="IT Advisory & Consultation">IT Advisory &amp; Consultation</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label class="field-label" for="contact-brief">Project or Support Brief</label>
+              <textarea id="contact-brief" class="input" rows="4" required placeholder="Describe your servers, endpoints, cloud setup, or application requirements..."></textarea>
+            </div>
+
+            <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:4px;">
+              <span id="form-status" class="font-mono" style="font-size:11.5px;color:var(--text-muted);">Ready for dispatch</span>
+              <button type="submit" class="btn btn-primary">Send Inquiry →</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- CORPORATE FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="#hero" class="brand" style="color:#ffffff;margin-bottom:12px;">
+            <span>BeyainCorp</span>
+            <span class="brand-tag" style="background:rgba(56,189,248,0.14);color:#38bdf8;border-color:rgba(56,189,248,0.3);">IT &amp; CLOUD</span>
+          </a>
+          <p style="font-size:13.5px;color:#94a3b8;max-width:320px;margin:0;">
+            Modern IT support, cloud architecture, cybersecurity, and software engineering backed by senior architects and intelligent automation.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#sla">SLA Plans</a></li>
+            <li><a href="#leadership">Directors</a></li>
+            <li><a href="/portal.html">Client &amp; CMS Portal</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Capabilities</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Infra, Server &amp; SAN/NAS</a></li>
+            <li><a href="#services">Cloud &amp; O365 Admin</a></li>
+            <li><a href="#services">SentinelOne EDR/XDR</a></li>
+            <li><a href="#services">Web &amp; Local AI Apps</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Leadership &amp; Policies</h4>
+          <ul class="footer-links">
+            <li><a href="https://beyain-corp.github.io/Jebin_Portfolio/" target="_blank" rel="noopener noreferrer">Jebin Joseph (CIO) ↗</a></li>
+            <li><a href="https://sanjaiportfoliov1.vercel.app/" target="_blank" rel="noopener noreferrer">Sanjai Kumar (Director) ↗</a></li>
+            <li><button type="button" data-policy="sla">SLA &amp; Escalation Policy</button></li>
+            <li><button type="button" data-policy="security">Security &amp; Privacy</button></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 BeyainCorp. All rights reserved.</span>
+        <span class="font-mono">ENTERPRISE IT &amp; CLOUD &bull; CHENNAI, INDIA &bull; GLOBAL</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PORTFOLIO CASE STUDY & POLICY MODAL -->
+  <div id="modal-overlay" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-box">
+      <button type="button" id="modal-close" class="modal-close" aria-label="Close modal">&times;</button>
+      <div id="modal-kicker" class="section-kicker" style="margin-bottom:8px;">CASE STUDY</div>
+      <h3 id="modal-title" class="section-title" style="font-size:26px;margin-bottom:14px;">Title</h3>
+      <div id="modal-body" style="font-size:14.5px;color:var(--text-soft);line-height:1.7;"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

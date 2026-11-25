@@ -1,0 +1,14 @@
+{
+  "name": "beyaincorp-portfolio-cms",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "BeyainCorp corporate website, portfolio, client login portal, and Notion DB CMS backend.",
+  "scripts": {
+    "start": "node server.mjs",
+    "hash-password": "node scripts/hash-password.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
